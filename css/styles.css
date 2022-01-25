@@ -1,0 +1,49 @@
+.container{
+    color: blue;
+}
+
+.ingredients{
+    color:orange;
+}
+
+.directions{
+    color:cornflowerblue
+}
+
+#information{
+    color:pink
+}
+
+#links{
+    color:darkcyan
+}
+
+nav{
+    background-color:bisque
+}
+
+header{
+    color:yellowgreen;
+}
+
+main{
+    color:green
+}
+
+footer{
+    color:gray
+}
+
+h1{
+    color:rgb(40, 25, 252);
+}
+
+h2{
+    color:blueviolet;
+}
+
+h3{
+    color:brown
+}
+
+
