@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif
+}
+
 .container{
-    color: blue;
+    color: rgb(95, 95, 224);
+    background-color:antiquewhite
 }
 
 .ingredients{
@@ -10,13 +17,27 @@
     color:cornflowerblue
 }
 
+#title{
+    color:rgb(67, 160, 129)
+}
+
 #information{
     color:pink
 }
 
-#links{
+#nutrition{
     color:darkcyan
 }
+
+img{
+    height: 300px;
+    width: auto
+}
+
+a link{ color: red; }
+a visited{ color: purple; }
+a active{ color: black; }
+a hover{ color: green; }
 
 nav{
     background-color:bisque
