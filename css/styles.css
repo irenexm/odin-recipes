@@ -1,23 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-body {
+html{ box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+body{
     background-color: rgb(240, 240, 214);
     font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    width: 90%;
+    margin: 50px;
 }
+
+.bold-text {font-weight: bold;}
 
 .container{
     color: rgb(125, 125, 238);
-    background-color: purple;
+    background-color: rgb(187, 111, 187);
+}
+
+.info{
+    text-align: center;
 }
 
 .ingredients{
     color:rgb(100, 78, 36);
-    background-color:rgb(255, 217, 147);
+    background-color:rgb(252, 209, 209);
 }
 
 .directions{
     color:rgb(33, 57, 102);
-    background-color: rgb(200, 200, 248);
+    background-color: rgb(225, 225, 252);
 }
 
 #title{
@@ -26,7 +38,7 @@ body {
 }
 
 #information{
-    color:pink;
+    color:rgb(240, 137, 154);
 }
 
 #nutrition{
@@ -38,17 +50,18 @@ img{
     width: auto;
 }
 
-a:link{color: rgb(255, 136, 156); }
+a:link{color: rgb(243, 137, 155); }
 a:visited{color: rgb(71, 187, 106); }
 a:hover{color: rgb(25, 124, 55); }
 a:active{color: rgb(190, 76, 76); }
 a:focus{color: rgb(88, 88, 158); }
 
 nav{
-    background-color:bisque;
-    padding: 20px;
+    background-color:rgb(238, 212, 181);
+    padding: 20px 40px;
     width: 40%;
     margin: 0 auto;
+    border: 20px;
     list-style: none;
     text-align: center;
 }
@@ -69,7 +82,7 @@ nav{
 }
 
 header{
-    color:rgb(102, 192, 79);
+    color:rgb(81, 136, 67);
 }
 
 main{
@@ -85,7 +98,7 @@ h1{
 }
 
 h2{
-    color:blueviolet;
+    color:rgb(80, 30, 128);
 }
 
 h3{
