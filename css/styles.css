@@ -14,8 +14,8 @@ body{
 .bold-text {font-weight: bold;}
 
 .container{
-    color: rgb(125, 125, 238);
-    background-color: rgb(187, 111, 187);
+    color: rgb(145, 145, 238);
+    background-color: rgb(202, 136, 202);
 }
 
 .info{
@@ -51,7 +51,7 @@ img{
 }
 
 a:link{color: rgb(243, 137, 155); }
-a:visited{color: rgb(71, 187, 106); }
+a:visited{color: rgb(50, 148, 80); }
 a:hover{color: rgb(25, 124, 55); }
 a:active{color: rgb(190, 76, 76); }
 a:focus{color: rgb(88, 88, 158); }
@@ -105,4 +105,18 @@ h3{
     color:brown
 }
 
+.boxes{
+    background-color:rgb(76, 151, 151);
+}
+
+.box{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(176, 176, 241);
+  color: black;
+  border: 10px solid rgb(93, 93, 185);
+  padding: 10px;
+  margin: 5%;
+}
 
